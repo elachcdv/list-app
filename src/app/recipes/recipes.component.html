@@ -5,6 +5,7 @@
     ></app-recipe-list>
   </div>
   <div class="col-md-7">
+    <!-- należy przypiąć ngIf i przypiąć  -->
     <app-recipe-detail
       *ngIf="selectedRecipe; else infoChoose"
       [recipe]="selectedRecipe"
